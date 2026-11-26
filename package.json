@@ -1,0 +1,22 @@
+{
+  "name": "sugar-stage",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "シュガー・ステージ 〜夢見るお菓子劇場〜  React製マッチ3パズル",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:single": "vite build --mode single",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11",
+    "vite-plugin-singlefile": "^2.0.3"
+  }
+}
